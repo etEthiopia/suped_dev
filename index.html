@@ -10,11 +10,12 @@
   <meta property="og:image" content="assets/images/index-meta.png">
   <meta name="twitter:title" content="SupEd | Home">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo-small-96x66.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logo-hr-503x344.png" type="image/x-icon">
   <meta name="description" content="">
   
   
   <title>SupEd | Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -22,6 +23,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -39,7 +43,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="index.html">
-                        <img src="assets/images/logo-small-96x66.png" alt="Sup Ed PLC." style="height: 3rem;">
+                        <img src="assets/images/logo-hr-503x344.png" alt="Sup Ed PLC." style="height: 5rem;">
                     </a>
                 </span>
                 
@@ -53,12 +57,11 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-primary display-4" href="company_profile.html">
-                            Company Profile</a></li>
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="services.html">
-                            Services</a></li>
-                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="products.html#top">Products</a>
-                    </li><li class="nav-item"><a class="nav-link link text-primary display-4" href="index.html#content3-h">Blogs &amp; News</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="projects.html">Projects</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="gallery.html">Gallery</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="contact.html">Contact</a></li></ul>
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown"><a class="nav-link link text-primary dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
+                            Company Profile</a><div class="dropdown-menu"><a class="text-primary dropdown-item display-4" href="company_profile.html">What We Do</a><a class="text-primary dropdown-item display-4" href="company_profile.html">Participations</a><a class="text-primary dropdown-item display-4" href="company_profile.html">Milestones</a><a class="text-primary dropdown-item display-4" href="company_profile.html">Our Team</a><a class="text-primary dropdown-item display-4" href="company_profile.html">Our Partners</a></div></li>
+                    <li class="nav-item dropdown"><a class="nav-link link text-primary dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
+                            Services And Products</a><div class="dropdown-menu"><a class="text-primary dropdown-item display-4" href="services.html">Services</a><a class="text-primary dropdown-item display-4" href="products.html">Products</a></div></li>
+                    <li class="nav-item"><a class="nav-link link text-primary display-4" href="blogs_news.html#top">Blogs</a></li><li class="nav-item dropdown"><a class="nav-link link text-primary dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">Projects</a><div class="dropdown-menu"><a class="text-primary dropdown-item display-4" href="projects.html#features7-26">Higher Education</a><a class="text-primary dropdown-item display-4" href="projects.html#features7-27">General Education</a><a class="text-primary dropdown-item display-4" href="projects.html#features7-28" aria-expanded="false">Juinor School</a><a class="text-primary dropdown-item display-4" href="projects.html#features7-29" aria-expanded="false">Speed School</a><a class="text-primary dropdown-item display-4" href="projects.html#features7-2b" aria-expanded="false">Adult Education</a><a class="text-primary dropdown-item display-4" href="projects.html#features7-2c" aria-expanded="false">Girls Can Code</a><a class="text-primary dropdown-item display-4" href="projects.html#features7-2e" aria-expanded="false">Inclusive Education</a></div></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="gallery.html">Gallery</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="contact.html">Contact</a></li></ul>
                 
                 
             </div>
@@ -66,52 +69,31 @@
     </nav>
 </section>
 
-<section class="header11 cid-sknvx4JN2f mbr-fullscreen mbr-parallax-background" id="header11-4">
+<section class="carousel slide cid-skA274breY" data-interval="false" id="slider1-2o">
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(0, 0, 0);"></div>
+    <div class="full-screen"><div class="mbr-slider slide carousel" data-keyboard="false" data-ride="false" data-interval="false" data-pause="false"><ol class="carousel-indicators"><li data-app-prevent-settings="" data-target="#slider1-2o" class=" active" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider1-2o" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider1-2o" data-slide-to="2"></li></ol><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(assets/images/three-girls-using-sparked-1280x853.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="opacity: 0.4;"></div><img src="assets/images/three-girls-using-sparked-1280x853.jpg" alt="" title=""><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1"><strong>Your Partner for Education Technology Solutions</strong></h2><p class="lead mbr-text mbr-fonts-style display-5">SupEd PLC.</p></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/suped-tabs-1280x960.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="opacity: 0.4;"></div><img src="assets/images/suped-tabs-1280x960.jpg" alt="" title=""><div class="carousel-caption justify-content-center"><div class="col-10 align-left"><h2 class="mbr-fonts-style display-1"><strong>Analyze, Design, Develop, Implement, Evaluate&nbsp;</strong></h2><p class="lead mbr-text mbr-fonts-style display-5">SupEd PLC.</p></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/photo-2021-01-25-13-55-12-1280x899.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="opacity: 0.6;"></div><img src="assets/images/photo-2021-01-25-13-55-12-1280x899.jpg" alt="" title=""><div class="carousel-caption justify-content-center"><div class="col-10 align-right"><h2 class="mbr-fonts-style display-1"><strong>Dedicated To Supporting Education Through Technology</strong></h2><p class="lead mbr-text mbr-fonts-style display-5">SupEd PLC.</p></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-2o"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-2o"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div>
 
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-4 image-wrapper">
-                <img class="w-100" src="assets/images/logo-hr-503x344.png" alt="SupEd">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper text-center">
-                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Your Partner for Education Technology Solutions</strong></h1>
-                    <p class="mbr-text mbr-fonts-style display-5">SupEd PLC.</p>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
-<section class="features15 cid-sknBEjw8XR" id="features16-5">
-
+<section class="header15 cid-sn6ZNnBwvk" id="header15-32">
     
 
     
+
     <div class="container">
-        <div class="content-wrapper">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg">
-                    <div class="text-wrapper">
-                        <h6 class="card-title mbr-fonts-style display-2">
-                            <strong>About Us</strong></h6>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-4">Support Education (SupEd ) is dedicated to supporting Education through digital technology, and achieve equity, equality, and inclusive education for all students in developing countries. Our solution delivers, online, offline and integrated approach to address all schools, where there is an internet connection or no internet at all.
+        <div class="row justify-content-center">
+            <div class="col-12 col-md">
+                <div class="text-wrapper">
+                    <h2 class="mbr-section-title mb-3 mbr-fonts-style display-2"><strong>About Us</strong></h2>
+                    <p class="mbr-text mb-3 mbr-fonts-style display-7">Support Education (SupEd ) is dedicated to supporting Education through digital technology, and achieve equity, equality, and inclusive education for all students in developing countries. Our solution delivers, online, offline and integrated approach to address all schools, where there is an internet connection or no internet at all. 
 <br>
 <br>According to UNSCO report, more than 60%of youth between the age of 15 to 17 are out of school, and disparity in access to quality of education based on gender, economic status, ethnicity, and disability is prevalent in all countries in the region. Hence our organization strives to address this gap and focus on reaching the rural and marginalized regions, with integrated online/offline solutions and affordable digital devices to ensure equal access to quality education.</p>
-                        <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="company_profile.html#header12-r">Learn more</a></div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="image-wrapper">
-                        <img src="assets/images/suped-with-tabs-618x618.jpg" alt="SupEd | About Us">
-                    </div>
+                    <div class="mbr-section-btn"><a class="btn btn-secondary-outline display-4" href="company_profile.html#header12-r">Learn more</a></div>
                 </div>
             </div>
+            <div class="mbr-figure col-12 col-md-5"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/DLY3M-2x4R8?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
         </div>
     </div>
 </section>
@@ -126,7 +108,7 @@
                     <h3 class="mbr-section-title mb-4 mbr-fonts-style display-5">
                         <strong>Mission</strong></h3>
                     <p class="mbr-text mb-4 mbr-fonts-style display-4">
-                        Support Education’s mission is to become a “one stop education solution” in delivering quality digital educational content supported by technology related products.</p>
+                        To bring Equitable and inclusive education to all through the development and introduction of educational technology, training, and availing educational resource through offline and online means.</p>
                     
                 </div>
             </div>
@@ -135,7 +117,7 @@
                     <h3 class="mbr-section-title mbr-fonts-style mb-4 display-5">
                         <strong>Vision</strong></h3>
                     <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                        Support Education’s vision is to become a “one stop education solution” in delivering  quality digital educational content supported by technology related products.</p>
+                        To build innovative and good citizenship values with in the community, to see a developed country with access to equitable and quality of education, health facilities, conducive leaving environment, resources and job opportunities, irrespective of their geographical location, ethnicity and economic status.</p>
                     
                 </div>
             </div>
@@ -429,78 +411,24 @@
     </div>
 </section>
 
-<section class="content3 cid-skpeE81qyb" id="content3-h">
-    
-    <div class="mbr-overlay"></div>
-    <div class="container">
-        <div class="mbr-section-head">
-            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Latest News</strong></h4>
-            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-7"><a href="index.html" class="text-secondary">Click here to Read More News from SupEd</a></h5>
-        </div>
-        <div class="row mt-4">
-            <div class="item features-image сol-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/suped1-404x269.jpg" alt="Adult Education" title="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-4"><em>Jan 10, 2020</em></h5>
-                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7"><strong>Adult Education</strong></h6>
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Adult education is a practice in which adults engage in systematic&nbsp;</p>
-                    </div>
-                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary-outline display-7" target="_blank">Read More &gt;</a></div>
-                </div>
-            </div>
-            <div class="item features-image сol-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/tab-copy-416x415.jpg" alt="Girls Can Code Project" title="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-4"><em>Jan 09, 2020</em></h5>
-                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7"><strong>Girls Can Code Project</strong></h6>
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">This project was fully funded by the US Embassy public affair&nbsp;<br>
-                        </p>
-                    </div>
-                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary-outline display-7" target="_blank">Read More &gt;</a></div>
-                </div>
-            </div>
-            <div class="item features-image сol-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/suped2-405x269.jpg" alt="Speed School" title="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-4"><em>Jan 08, 2020</em></h5>
-                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-7"><strong>Speed School</strong></h6>
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Speed school is initiated by Geneva Global. this initiative is&nbsp;</p>
-                    </div>
-                    <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary-outline display-7" target="_blank">Read More &gt;</a></div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
 <section class="content1 cid-skpidrJrPF" id="content1-j">
     
     
     <div class="container">
         <div class="mbr-section-head">
             <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Blog</strong></h4>
-            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-7"><a href="index.html" class="text-secondary">Click Here to Read More SupEd blogs related to Educational Topics.</a></h5>
+            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-7"><a href="blog.html#top" class="text-secondary text-primary">Click Here to Read More SupEd blogs related to Educational Topics.</a></h5>
         </div>
         <div class="row mt-4">
             <div class="item features-image сol-12 col-md-6 col-lg-6">
                 <div class="item-wrapper">
                     <div class="item-img">
-                        <img src="assets/images/img-4965-1076x603.jpeg" alt="CEO of SupEd was interviewed on Ahadu Radio" title="">
+                        <a href="ce_of_suped_was_interviewed_on_ahadu_radio.html" target="_blank"><img src="assets/images/img-4965-1076x603.jpeg" alt="CEO of SupEd was interviewed on Ahadu Radio" title=""></a>
                     </div>
                     <div class="item-content">
                         <h5 class="item-title mbr-fonts-style display-7"><strong>CEO of SupEd was interviewed on Ahadu Radio</strong></h5>
-                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-4"><strong>Dagmawi Negussu</strong><em> 10-10-2020</em></h6>
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">The CEO of Support Education, made an interview with “keshelf-lay”,  a program working on technological innovation and research.&nbsp;<a href="#" class="text-primary">Read more..</a></p>
+                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-4"><em>06-21-2020</em></h6>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">The CEO of Support Education, made an interview with “keshelf-lay”,  a program working on technological innovation and research.&nbsp;<a href="ceo_of_suped_was_interviewed_on_ahadu_radio.html" class="text-primary">Read more..</a></p>
                     </div>
                     
                 </div>
@@ -508,12 +436,12 @@
             <div class="item features-image сol-12 col-md-6 col-lg-6">
                 <div class="item-wrapper">
                     <div class="item-img">
-                        <img src="assets/images/technical-group-300x300.jpeg" alt="Technical Group from MOE and Regional Bureau" title="">
+                        <a href="technical_group_from_moe_and_regional_bureau.html#top" target="_blank"><img src="assets/images/technical-group-300x300.jpeg" alt="Technical Group from MOE and Regional Bureau" title=""></a>
                     </div>
                     <div class="item-content">
                         <h5 class="item-title mbr-fonts-style display-7"><strong>Technical Group from MOE and Regional Bureau</strong></h5>
-                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-4"><strong>Dagmawi Negussu</strong><em>&nbsp;09-09-2025</em></h6>
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">The team visited the two pilot schools, Burayu and Chacha General Secondary and Preparatory Schools, on 14th and 15th of&nbsp;<a href="#top" class="text-primary">Read more..</a><br></p>
+                        <h6 class="item-subtitle mbr-fonts-style mt-1 display-4"><em>04-12-2019</em></h6>
+                        <p class="mbr-text mbr-fonts-style mt-3 display-7">The team visited the two pilot schools, Burayu and Chacha General Secondary and Preparatory Schools, on 14th and 15th of&nbsp;<a href="technical_group_from_moe_and_regional_bureau.html#top" class="text-primary" target="_blank">Read more..</a><br></p>
                     </div>
                     
                 </div>
@@ -524,102 +452,7 @@
     </div>
 </section>
 
-<section class="features7 cid-skpmYEhFRN" id="features8-k">
-    <!---->
-    
-    
-    <div class="container">
-        <div class="row">
-            <div class="title col-12">
-                <h5 class="mbr-section-title mbr-fonts-style mb-3 display-2">
-                    <strong>Projects We Worked On</strong></h5>
-                <h6 class="mbr-section-subtitle mbr-fonts-style mb-4 display-7"><a href="projects.html" class="text-secondary text-primary">Click Here to Know More!</a></h6>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5"><strong><a href="projects.html#features7-26" class="text-secondary">Higher Education</a></strong></h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5"></p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5"><strong><a href="projects.html#features7-28" class="text-secondary">Juinor School</a></strong></h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5"></p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5"><strong><a href="projects.html#features7-27" class="text-secondary">General Education</a></strong></h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5"></p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5"><strong><a href="projects.html#features7-29" class="text-secondary">Speed School</a></strong></h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5"></p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5"><strong><a href="projects.html#features7-2c" class="text-secondary">GCC</a></strong></h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5"></p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5"><strong><a href="projects.html#features7-2b" class="text-secondary">Adult Education</a></strong></h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5"></p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="top-line">
-                        <h6 class="card-title mbr-fonts-style display-5"><strong><a href="projects.html#features7-2e" class="text-secondary">Inclusive Education</a></strong></h6>
-                        <p class="mbr-text cost mbr-fonts-style display-5"></p>
-                    </div>
-                    <div class="bottom-line">
-                        
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            
-            
-        </div>
-    </div>
-</section>
+
 
 <section class="gallery6 mbr-gallery cid-skpq94G83A" id="gallery6-n">
     
@@ -633,8 +466,8 @@
         </div>
         <div class="row mbr-gallery mt-4">
             <div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-target="#skuvkZz7Wz-modal">
-                    <img class="w-100" src="assets/images/suped1-404x269.jpg" alt="SupEd" data-slide-to="0" data-target="#lb-skuvkZz7Wz">
+                <div class="item-wrapper" data-toggle="modal" data-target="#so4HSLrWEJ-modal">
+                    <img class="w-100" src="assets/images/photo-2021-01-25-13-55-9-693x346.jpeg" alt="SupEd" data-slide-to="0" data-target="#lb-so4HSLrWEJ">
                     <div class="icon-wrapper">
                         <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                     </div>
@@ -642,8 +475,8 @@
                 
             </div>
             <div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-target="#skuvkZz7Wz-modal">
-                    <img class="w-100" src="assets/images/suped-with-tabs-1-618x618.jpeg" alt="SupEd" data-slide-to="1" data-target="#lb-skuvkZz7Wz">
+                <div class="item-wrapper" data-toggle="modal" data-target="#so4HSLrWEJ-modal">
+                    <img class="w-100" src="assets/images/photo-2021-01-25-13-55-12-693x487.jpeg" alt="SupEd" data-slide-to="1" data-target="#lb-so4HSLrWEJ">
                     <div class="icon-wrapper">
                         <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                     </div>
@@ -651,8 +484,8 @@
                 
             </div>
             <div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-target="#skuvkZz7Wz-modal">
-                    <img class="w-100" src="assets/images/tab-copy-416x415.jpeg" alt="SupEd" data-slide-to="2" data-target="#lb-skuvkZz7Wz">
+                <div class="item-wrapper" data-toggle="modal" data-target="#so4HSLrWEJ-modal">
+                    <img class="w-100" src="assets/images/tab-copy-416x415.jpeg" alt="SupEd" data-slide-to="2" data-target="#lb-so4HSLrWEJ">
                     <div class="icon-wrapper">
                         <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                     </div>
@@ -660,8 +493,8 @@
                 
             </div>
             <div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-target="#skuvkZz7Wz-modal">
-                    <img class="w-100" src="assets/images/photo-2020-09-21-19-57-54-506x380.jpeg" alt="SupEd" data-slide-to="3" data-target="#lb-skuvkZz7Wz">
+                <div class="item-wrapper" data-toggle="modal" data-target="#so4HSLrWEJ-modal">
+                    <img class="w-100" src="assets/images/photo-2020-09-21-19-57-54-506x380.jpeg" alt="SupEd" data-slide-to="3" data-target="#lb-so4HSLrWEJ">
                     <div class="icon-wrapper">
                         <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                     </div>
@@ -670,17 +503,17 @@
             </div>
         </div>
 
-        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="skuvkZz7Wz-modal">
+        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="so4HSLrWEJ-modal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div class="carousel slide" id="lb-skuvkZz7Wz" data-interval="5000">
+                        <div class="carousel slide" id="lb-so4HSLrWEJ" data-interval="5000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="assets/images/suped1-404x269.jpg" alt="">
+                                    <img class="d-block w-100" src="assets/images/photo-2021-01-25-13-55-9-693x346.jpeg" alt="">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/suped-with-tabs-1-618x618.jpeg" alt="">
+                                    <img class="d-block w-100" src="assets/images/photo-2021-01-25-13-55-12-693x487.jpeg" alt="">
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="assets/images/tab-copy-416x415.jpeg" alt="">
@@ -690,18 +523,18 @@
                                 </div>
                             </div>
                             <ol class="carousel-indicators">
-                                <li data-slide-to="0" class="active" data-target="#lb-skuvkZz7Wz"></li>
-                                <li data-slide-to="1" data-target="#lb-skuvkZz7Wz"></li>
-                                <li data-slide-to="2" data-target="#lb-skuvkZz7Wz"></li>
-                                <li data-slide-to="3" data-target="#lb-skuvkZz7Wz"></li>
+                                <li data-slide-to="0" class="active" data-target="#lb-so4HSLrWEJ"></li>
+                                <li data-slide-to="1" data-target="#lb-so4HSLrWEJ"></li>
+                                <li data-slide-to="2" data-target="#lb-so4HSLrWEJ"></li>
+                                <li data-slide-to="3" data-target="#lb-so4HSLrWEJ"></li>
                             </ol>
                             <a role="button" href="" class="close" data-dismiss="modal" aria-label="Close">
                             </a>
-                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" href="#lb-skuvkZz7Wz">
+                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" href="#lb-so4HSLrWEJ">
                                 <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" href="#lb-skuvkZz7Wz">
+                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" href="#lb-so4HSLrWEJ">
                                 <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
@@ -736,25 +569,7 @@
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
                             <strong>Manager</strong></h6>
                         
-                        <div class="social-row display-7">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
+                        
                         
                     </div>
                 </div>
@@ -770,25 +585,7 @@
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
                             <strong>CEO</strong></h6>
                         
-                        <div class="social-row display-7">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
+                        
                         
                     </div>
                 </div>
@@ -803,25 +600,7 @@
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-7"><strong>Prof. Craig Wilson</strong></h5>
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4"><strong>Director</strong></h6>
                         
-                        <div class="social-row display-7">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
+                        
                         
                     </div>
                 </div>
@@ -836,28 +615,91 @@
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-7"><strong>Yayehyirad Abate</strong></h5>
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4"><strong>Board Member</strong></h6>
                         
-                        <div class="social-row display-7">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
+                        
                         
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form5 cid-so3HbjFqm7" id="form5-38">
+    
+    
+    <div class="container">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Contacts</strong>
+            </h3>
+            
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="KfswspWMlABvUo1U83xxQKwafQmvW1mbL5OgjvjNk5q9+sYwSwlwLyDzbk5rNuDvyP49uc/EBQkUI2kGiFzcskvyDzH5njwje0Sqlbaw+phxWN0rPbHOcBoj+8ThNvv5">
+                    <div class="">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out
+                            the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
+                            problem!</div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-md col-sm-12 form-group" data-for="name">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form5-38">
+                        </div>
+                        <div class="col-md col-sm-12 form-group" data-for="email">
+                            <input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control" value="" id="email-form5-38">
+                        </div>
+                        <div class="col-12 form-group" data-for="url">
+                            <input type="url" name="url" placeholder="Your Site" data-form-field="url" class="form-control" value="" id="url-form5-38">
+                        </div>
+                        <div class="col-12 form-group" data-for="textarea">
+                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-form5-38"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+                            <button type="submit" class="btn btn-primary display-4">Send message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form7 cid-so3GlSSlyf" id="form7-37">
+    
+    
+    <div class="container-fluid">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Contact Us</strong></h3>
+            
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="6JcYP50LMByBcf2d9rLkoI9UYr6JzdRXWA5JP5nRNGkdjN5R7LpK5TqT3zz7q0s+4dhFIOm+1JpI9Id6+9wERY6YZ94q1HFr4plX3ukStyy1JvPGMRoAjdjvyNedbf0G">
+                    
+                    <div class="">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling
+                            out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
+                            problem!</div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="name">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form7-37">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="email">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form7-37">
+                        </div>
+                        <div data-for="phone" class="col-lg-12 col-md-12 col-sm-12 form-group">
+                            <input type="tel" name="phone" placeholder="Phone" data-form-field="phone" class="form-control" value="" id="phone-form7-37">
+                        </div>
+                        <div class="col-auto mbr-section-btn align-center">
+                            <button type="submit" class="btn btn-primary display-4">Submit</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -891,8 +733,7 @@
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 mt-5 display-7"><strong>Menu</strong></h5>
                 <p class="mbr-text mbr-fonts-style mb-4 display-7"><a href="company_profile.html" class="text-danger text-primary">Company Profile
 </a><br><a href="services.html" class="text-danger text-primary">Services</a>
-<br><a href="products.html" class="text-danger">Products</a><br>Blogs &amp; News
-<br><a href="projects.html" class="text-danger">Projects</a><br><a href="gallery.html" class="text-danger">Gallery</a></p>
+<br><a href="products.html" class="text-danger">Products</a><br><a href="blog.html" class="text-danger">Blogs</a><br><a href="projects.html" class="text-danger">Projects</a><br><a href="gallery.html" class="text-danger">Gallery</a></p>
             </div>
             <div class="col-12 col-md-6">
                 <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCt1265A4qvZy9HKUeA8J15AOC4SrCyZe4&amp;q=iframe" allowfullscreen=""></iframe></div>
@@ -914,7 +755,7 @@
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/l" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Made with <a href="https://mobirise.site/a" style="color:#aaa;">Mobirise</a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/c" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/t" style="color:#aaa;">Built</a> with Mobirise bootstrap site theme</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>  <script src="assets/formstyler/jquery.formstyler.js"></script>  <script src="assets/formstyler/jquery.formstyler.min.js"></script>  <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/slidervideo/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
